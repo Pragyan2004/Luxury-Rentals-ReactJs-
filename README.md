@@ -16,11 +16,17 @@ Application Structure:
    **Router Setup**: The `Router` wraps the entire application to enable routing.
    **Navbar and Footer**: Displayed on every page for consistent navigation and branding.
    **Routes**: 
+   
      - `/`: Renders the `Home` component.
+     
      - `/About`: Renders the `About` component.
+     
      - `/Contact`: Renders the `Contact` component.
+     
      - `/termsandconditions`: Renders the `TermsAndConditions` component.
+     
      - `/Villas`: Renders the `Villas` component.
+     
      - `/Villa/:id`: Renders the `SingleVilla` component with dynamic ID routing.
 
 
